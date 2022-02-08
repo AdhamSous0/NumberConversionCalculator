@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/binicon"
+        android:icon="@mipmap/binselect_foreground"
+        android:title="Binary"
+        android:visible="true" />
+    <item
+        android:id="@+id/decicon"
+        android:icon="@mipmap/dec_foreground"
+        android:title="Decimal"
+        android:visible="true" />
+    <item
+        android:id="@+id/octicon"
+        android:icon="@mipmap/octa_foreground"
+        android:title="Octal"
+        android:visible="true" />
+    <item
+        android:id="@+id/hexicon"
+        android:icon="@mipmap/hex_foreground"
+        android:title="Hexadecimal"
+        android:visible="true" />
+</menu>
